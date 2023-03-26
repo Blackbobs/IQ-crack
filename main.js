@@ -12,7 +12,7 @@ form.addEventListener('submit', (e) => {
 
     let value = input.value;
 
-    if (value == randomNumber) {
+    if (value === randomNumber) {
         answer.style.display = 'block';
         answer.style.background = '#0f0'
         answer.innerText = 'You guessed right';
